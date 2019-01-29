@@ -31,7 +31,7 @@ class Template
 
     public function getArquivo()
     {
-        return $this->arquivo.'.phtml';
+        return $this->arquivo.'.blade.php';
     }
 
     public function setPasta($pasta)

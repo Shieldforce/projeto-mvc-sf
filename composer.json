@@ -18,7 +18,10 @@
   {
     "psr-4": {
       "SF\\":"vendor/SF",
-      "App\\":"App/"
+      "App\\":"App/",
+      "Core\\":"core/",
+      "Storage\\":"storage/",
+      "Tags\\":"Tags/"
   },
 
   "config":

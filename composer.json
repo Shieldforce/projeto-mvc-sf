@@ -1,0 +1,30 @@
+{
+
+  "name": "sf/mvc",
+  "require":{
+    "php":">=7.0"
+  },
+
+  "minimum-stability": "alpha",
+  "authors":
+  [
+    {
+      "name":"Alexandre Ferreira",
+      "email":"shieldforce2@gmail.com"
+    }
+  ],
+
+  "autoload":
+  {
+    "psr-4": {
+      "SF\\":"vendor/SF",
+      "App\\":"App/"
+  },
+
+  "config":
+    {
+      "bin-dir": "bin"
+    }
+  }
+
+}
